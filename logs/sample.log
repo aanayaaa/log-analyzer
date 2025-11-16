@@ -1,0 +1,63 @@
+2024-11-10 09:12:14 INFO Starting system initialization
+2024-11-10 09:12:15 INFO Loading configuration file /etc/app/config.yaml
+2024-11-10 09:12:16 WARNING Disk usage at 85% on /dev/sda1
+2024-11-10 09:12:18 ERROR Database connection failed: timeout after 30s
+2024-11-10 09:12:19 ERROR Failed to authenticate user: invalid token
+2024-11-10 09:12:22 INFO Retrying database connection
+2024-11-10 09:12:25 ERROR Database connection failed: timeout after 30s
+2024-11-10 09:12:28 WARNING Memory usage crossed 90%
+2024-11-10 09:12:35 CRITICAL System crash detected in Module X
+2024-11-10 09:12:36 ERROR Stack trace:
+    File "app.py", line 42, in <module>
+    run_main()
+    File "core.py", line 88, in run_main
+    start_database()
+    ConnectionError: could not connect to DB node
+2024-11-10 09:12:45 INFO Attempting system recovery
+2024-11-10 09:12:50 INFO System recovered successfully
+2024-11-10 09:12:55 ERROR Unauthorized access attempt from IP 192.168.1.45
+2024-11-10 09:13:10 INFO Health check: all services running
+2024-11-10 09:13:20 WARNING High number of failed login attempts detected
+2024-11-10 09:14:05 ERROR API /login failed: 500 Internal Server Error
+2024-11-10 09:14:08 WARNING API response time high: 1200ms
+2024-11-10 09:14:10 INFO Queue worker started for task processing
+2024-11-10 09:14:15 ERROR Redis connection refused on port 6379
+2024-11-10 09:14:22 INFO Cache cleared successfully
+2024-11-10 09:14:30 WARNING Slow query detected on users table (2.4s)
+2024-11-10 09:14:40 ERROR Payment service timeout while processing order #7893
+2024-11-10 09:14:49 INFO Scheduled backup started
+2024-11-10 09:14:55 CRITICAL Backup failure: unable to write to storage node 3
+2024-11-10 09:15:02 ERROR FileNotFoundError: config.json missing
+2024-11-10 09:15:10 ERROR Too many open file descriptors (limit: 1024)
+2024-11-10 09:15:20 WARNING CPU temperature high: 92°C
+2024-11-10 09:15:28 INFO Scaling up instances: +2 nodes
+2024-11-10 09:16:00 ERROR Token verification failed for user_id=903
+2024-11-10 09:16:08 ERROR API rate limit exceeded for IP 10.0.0.18
+2024-11-10 09:16:12 WARNING Disk latency high on /dev/sdc
+2024-11-10 09:16:20 INFO Worker thread pool restarted
+2024-11-10 09:16:40 ERROR Message broker connection lost
+2024-11-10 09:16:44 ERROR Reconnecting to message broker...
+2024-11-10 09:16:50 INFO Message broker connected
+2024-11-10 09:17:03 WARNING Memory leak suspected: process id 2345
+2024-11-10 09:17:14 ERROR Docker container crash: service "reporting-api"
+2024-11-10 09:17:18 ERROR Stack trace:
+    File "server.py", line 102, in run
+    execute_task()
+    File "task.py", line 45, in execute_task
+    raise RuntimeError("Task execution failed")
+    RuntimeError: Task execution failed
+2024-11-10 09:17:30 INFO Restarting crashed container
+2024-11-10 09:17:45 INFO Container restarted successfully
+2024-11-10 09:18:05 WARNING Network latency spike detected: 300ms
+2024-11-10 09:18:10 ERROR SSH brute force attempt from 185.23.91.12
+2024-11-10 09:18:20 ERROR User session expired unexpectedly
+2024-11-10 09:18:32 INFO Syncing system time with NTP server
+2024-11-10 09:18:50 WARNING Authentication failures exceeding threshold
+2024-11-10 09:19:05 ERROR Microservice "billing" returned 503
+2024-11-10 09:19:22 INFO Switching to backup DB instance
+2024-11-10 09:19:30 CRITICAL Main database unreachable: failover failed
+2024-11-10 09:19:40 ERROR DB failover script terminated unexpectedly
+2024-11-10 09:19:55 INFO System entering maintenance mode
+2024-11-10 09:20:10 WARNING Service degradation detected across region us-east-1
+2024-11-10 09:20:28 ERROR Invalid JWT token provided by client app
+2024-11-10 09:20:50 INFO Cleanup tasks completed successfully
