@@ -13445,3 +13445,1229 @@ Traceback (most recent call last):
 2025-11-18 23:05:15 | WARNING | Database connection failed: timeout after 30s
 2025-11-18 23:05:16 | CRITICAL | Retrying database connection
 2025-11-18 23:05:17 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:18 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:19 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:20 | INFO | System crash detected in Module X
+2025-11-18 23:05:21 | WARNING | Starting system initialization
+2025-11-18 23:05:22 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:05:23 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:05:24 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:05:25 | INFO | System crash detected in Module X
+2025-11-18 23:05:26 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:05:27 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:05:28 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:05:29 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:30 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:31 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:05:32 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:33 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:05:34 | ERROR | System crash detected in Module X
+2025-11-18 23:05:35 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:36 | CRITICAL | Retrying database connection
+2025-11-18 23:05:37 | INFO | Retrying database connection
+2025-11-18 23:05:38 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:39 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:40 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:05:41 | INFO | Retrying database connection
+2025-11-18 23:05:42 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:43 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:05:44 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:45 | CRITICAL | System crash detected in Module X
+2025-11-18 23:05:46 | ERROR | Starting system initialization
+2025-11-18 23:05:47 | INFO | Retrying database connection
+2025-11-18 23:05:48 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:05:49 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:05:50 | INFO | Memory usage crossed 90%
+2025-11-18 23:05:51 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:05:52 | ERROR | System crash detected in Module X
+2025-11-18 23:05:53 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:05:54 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:55 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:05:56 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:05:57 | CRITICAL | Retrying database connection
+2025-11-18 23:05:58 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:05:59 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:06:00 | ERROR | Retrying database connection
+2025-11-18 23:06:01 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:02 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:03 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:06:04 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:05 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:06 | WARNING | Memory usage crossed 90%
+2025-11-18 23:06:07 | CRITICAL | System crash detected in Module X
+2025-11-18 23:06:08 | INFO | Starting system initialization
+2025-11-18 23:06:09 | WARNING | Retrying database connection
+2025-11-18 23:06:10 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:06:11 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:12 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:06:13 | ERROR | System crash detected in Module X
+2025-11-18 23:06:14 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:15 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:16 | ERROR | System crash detected in Module X
+2025-11-18 23:06:17 | INFO | Retrying database connection
+2025-11-18 23:06:18 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:06:19 | ERROR | System crash detected in Module X
+2025-11-18 23:06:20 | INFO | Starting system initialization
+2025-11-18 23:06:21 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:06:22 | INFO | Memory usage crossed 90%
+2025-11-18 23:06:23 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:24 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:06:25 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:06:26 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:06:27 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:06:28 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:29 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:30 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:31 | WARNING | Memory usage crossed 90%
+2025-11-18 23:06:32 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:06:33 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:34 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:06:35 | ERROR | Starting system initialization
+2025-11-18 23:06:36 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:06:37 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:38 | INFO | System crash detected in Module X
+2025-11-18 23:06:39 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:06:40 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:06:41 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:42 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:43 | ERROR | Memory usage crossed 90%
+2025-11-18 23:06:44 | INFO | Starting system initialization
+2025-11-18 23:06:45 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:06:46 | ERROR | Retrying database connection
+2025-11-18 23:06:47 | WARNING | Retrying database connection
+2025-11-18 23:06:48 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:06:49 | WARNING | Retrying database connection
+2025-11-18 23:06:50 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:06:51 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:06:52 | WARNING | Memory usage crossed 90%
+2025-11-18 23:06:53 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:06:54 | WARNING | System crash detected in Module X
+2025-11-18 23:06:55 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:06:56 | INFO | System crash detected in Module X
+2025-11-18 23:06:57 | INFO | System crash detected in Module X
+2025-11-18 23:06:58 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:06:59 | INFO | Retrying database connection
+2025-11-18 23:07:00 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:07:01 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:02 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:03 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:07:04 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:07:05 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:06 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:07 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:07:08 | INFO | Memory usage crossed 90%
+2025-11-18 23:07:09 | WARNING | Retrying database connection
+2025-11-18 23:07:10 | WARNING | Retrying database connection
+2025-11-18 23:07:11 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:07:12 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:07:13 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:14 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:07:15 | WARNING | Starting system initialization
+2025-11-18 23:07:16 | WARNING | Memory usage crossed 90%
+2025-11-18 23:07:17 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:07:18 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:19 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:21 | ERROR | System crash detected in Module X
+2025-11-18 23:07:22 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:07:23 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:07:24 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:07:25 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:07:26 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:07:27 | ERROR | Starting system initialization
+2025-11-18 23:07:28 | CRITICAL | System crash detected in Module X
+2025-11-18 23:07:29 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:30 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:07:31 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:07:32 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:07:33 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:34 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:35 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:07:36 | INFO | Retrying database connection
+2025-11-18 23:07:37 | INFO | System crash detected in Module X
+2025-11-18 23:07:38 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:39 | ERROR | Memory usage crossed 90%
+2025-11-18 23:07:40 | WARNING | Retrying database connection
+2025-11-18 23:07:41 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:07:42 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:43 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:07:44 | WARNING | Starting system initialization
+2025-11-18 23:07:45 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:07:46 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:07:47 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:48 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:07:49 | ERROR | System crash detected in Module X
+2025-11-18 23:07:50 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:07:51 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:07:52 | WARNING | Memory usage crossed 90%
+2025-11-18 23:07:53 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:07:54 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:07:55 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:56 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:07:57 | WARNING | Retrying database connection
+2025-11-18 23:07:58 | ERROR | System crash detected in Module X
+2025-11-18 23:07:59 | WARNING | Memory usage crossed 90%
+2025-11-18 23:08:00 | CRITICAL | Starting system initialization
+2025-11-18 23:08:01 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:02 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:03 | CRITICAL | Starting system initialization
+2025-11-18 23:08:04 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:08:05 | INFO | System crash detected in Module X
+2025-11-18 23:08:06 | ERROR | System crash detected in Module X
+2025-11-18 23:08:07 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:08:08 | WARNING | Memory usage crossed 90%
+2025-11-18 23:08:09 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:10 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:11 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:12 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:08:13 | WARNING | System crash detected in Module X
+2025-11-18 23:08:14 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:08:15 | CRITICAL | System crash detected in Module X
+2025-11-18 23:08:16 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:08:17 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:08:18 | WARNING | System crash detected in Module X
+2025-11-18 23:08:19 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:20 | INFO | Retrying database connection
+2025-11-18 23:08:21 | CRITICAL | Starting system initialization
+2025-11-18 23:08:22 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:08:23 | CRITICAL | Retrying database connection
+2025-11-18 23:08:24 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:25 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:26 | WARNING | Starting system initialization
+2025-11-18 23:08:27 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:28 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:08:29 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:08:30 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:08:31 | CRITICAL | Starting system initialization
+2025-11-18 23:08:32 | ERROR | Memory usage crossed 90%
+2025-11-18 23:08:33 | ERROR | Memory usage crossed 90%
+2025-11-18 23:08:34 | INFO | System crash detected in Module X
+2025-11-18 23:08:35 | INFO | Memory usage crossed 90%
+2025-11-18 23:08:36 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:08:37 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:08:38 | INFO | Starting system initialization
+2025-11-18 23:08:39 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:40 | WARNING | System crash detected in Module X
+2025-11-18 23:08:41 | INFO | Starting system initialization
+2025-11-18 23:08:42 | WARNING | System crash detected in Module X
+2025-11-18 23:08:43 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:08:44 | CRITICAL | System crash detected in Module X
+2025-11-18 23:08:45 | INFO | Memory usage crossed 90%
+2025-11-18 23:08:46 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:08:47 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:08:48 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:49 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:08:50 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:08:51 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:08:52 | WARNING | Memory usage crossed 90%
+2025-11-18 23:08:53 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:08:54 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:08:55 | WARNING | System crash detected in Module X
+2025-11-18 23:08:56 | WARNING | Retrying database connection
+2025-11-18 23:08:57 | INFO | Starting system initialization
+2025-11-18 23:08:58 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:08:59 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:00 | INFO | Memory usage crossed 90%
+2025-11-18 23:09:01 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:02 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:03 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:04 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:05 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:06 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:07 | ERROR | Retrying database connection
+2025-11-18 23:09:08 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:09 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:09:10 | WARNING | Retrying database connection
+2025-11-18 23:09:11 | WARNING | Retrying database connection
+2025-11-18 23:09:12 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:13 | WARNING | Retrying database connection
+2025-11-18 23:09:14 | WARNING | Starting system initialization
+2025-11-18 23:09:15 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:16 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:09:17 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:18 | ERROR | Memory usage crossed 90%
+2025-11-18 23:09:19 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:20 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:21 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:22 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:09:23 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:24 | WARNING | Starting system initialization
+2025-11-18 23:09:25 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:26 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:27 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:28 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:09:29 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:30 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:31 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:32 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:33 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:34 | ERROR | Starting system initialization
+2025-11-18 23:09:35 | INFO | Memory usage crossed 90%
+2025-11-18 23:09:36 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:37 | ERROR | System crash detected in Module X
+2025-11-18 23:09:38 | CRITICAL | Retrying database connection
+2025-11-18 23:09:39 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:40 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:41 | ERROR | Retrying database connection
+2025-11-18 23:09:42 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:43 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:44 | CRITICAL | Retrying database connection
+2025-11-18 23:09:45 | INFO | System crash detected in Module X
+2025-11-18 23:09:46 | CRITICAL | Retrying database connection
+2025-11-18 23:09:47 | ERROR | Starting system initialization
+2025-11-18 23:09:48 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:09:49 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:09:50 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:09:51 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:09:52 | WARNING | Retrying database connection
+2025-11-18 23:09:53 | CRITICAL | Starting system initialization
+2025-11-18 23:09:54 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:09:55 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:56 | WARNING | System crash detected in Module X
+2025-11-18 23:09:57 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:09:58 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:09:59 | ERROR | System crash detected in Module X
+2025-11-18 23:10:00 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:10:01 | ERROR | System crash detected in Module X
+2025-11-18 23:10:02 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:10:03 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:10:04 | WARNING | System crash detected in Module X
+2025-11-18 23:10:05 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:10:06 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:10:07 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:09 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:10:10 | WARNING | Starting system initialization
+2025-11-18 23:10:11 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:12 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:13 | ERROR | Memory usage crossed 90%
+2025-11-18 23:10:14 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:15 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:10:16 | WARNING | Memory usage crossed 90%
+2025-11-18 23:10:17 | WARNING | System crash detected in Module X
+2025-11-18 23:10:18 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:10:19 | INFO | Memory usage crossed 90%
+2025-11-18 23:10:20 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:10:21 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:22 | INFO | Memory usage crossed 90%
+2025-11-18 23:10:23 | ERROR | Starting system initialization
+2025-11-18 23:10:24 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:10:25 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:26 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:10:27 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:10:28 | ERROR | Retrying database connection
+2025-11-18 23:10:29 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:30 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:10:31 | ERROR | System crash detected in Module X
+2025-11-18 23:10:32 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:33 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:10:34 | INFO | System crash detected in Module X
+2025-11-18 23:10:35 | CRITICAL | System crash detected in Module X
+2025-11-18 23:10:36 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:37 | CRITICAL | System crash detected in Module X
+2025-11-18 23:10:38 | ERROR | Memory usage crossed 90%
+2025-11-18 23:10:39 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:40 | INFO | Memory usage crossed 90%
+2025-11-18 23:10:41 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:10:42 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:43 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:10:44 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:10:45 | CRITICAL | Starting system initialization
+2025-11-18 23:10:46 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:10:47 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:10:48 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:10:49 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:50 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:10:51 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:10:52 | WARNING | Starting system initialization
+2025-11-18 23:10:53 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:10:54 | ERROR | Retrying database connection
+2025-11-18 23:10:55 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:10:56 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:10:57 | ERROR | Starting system initialization
+2025-11-18 23:10:58 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:10:59 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:11:00 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:01 | WARNING | Retrying database connection
+2025-11-18 23:11:02 | CRITICAL | Retrying database connection
+2025-11-18 23:11:03 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:04 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:05 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:11:06 | INFO | Retrying database connection
+2025-11-18 23:11:07 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:11:08 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:11:09 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:10 | CRITICAL | System crash detected in Module X
+2025-11-18 23:11:11 | CRITICAL | Retrying database connection
+2025-11-18 23:11:12 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:13 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:11:14 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:15 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:16 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:17 | CRITICAL | Starting system initialization
+2025-11-18 23:11:18 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:19 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:20 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:21 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:11:22 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:23 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:24 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:11:25 | CRITICAL | Starting system initialization
+2025-11-18 23:11:26 | CRITICAL | Retrying database connection
+2025-11-18 23:11:27 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:28 | CRITICAL | System crash detected in Module X
+2025-11-18 23:11:29 | CRITICAL | Starting system initialization
+2025-11-18 23:11:30 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:31 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:32 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:33 | WARNING | Retrying database connection
+2025-11-18 23:11:34 | WARNING | Starting system initialization
+2025-11-18 23:11:35 | WARNING | Memory usage crossed 90%
+2025-11-18 23:11:36 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:11:37 | ERROR | System crash detected in Module X
+2025-11-18 23:11:38 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:39 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:11:40 | CRITICAL | System crash detected in Module X
+2025-11-18 23:11:41 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:42 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:43 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:44 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:11:45 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:11:46 | INFO | Memory usage crossed 90%
+2025-11-18 23:11:47 | CRITICAL | System crash detected in Module X
+2025-11-18 23:11:48 | WARNING | System crash detected in Module X
+2025-11-18 23:11:49 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:11:50 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:11:51 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:52 | WARNING | Retrying database connection
+2025-11-18 23:11:53 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:11:54 | INFO | System crash detected in Module X
+2025-11-18 23:11:55 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:11:56 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:11:57 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:11:58 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:11:59 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:12:00 | WARNING | Retrying database connection
+2025-11-18 23:12:01 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:02 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:12:03 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:12:04 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:05 | INFO | Memory usage crossed 90%
+2025-11-18 23:12:06 | WARNING | Starting system initialization
+2025-11-18 23:12:07 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:12:08 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:09 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:10 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:11 | CRITICAL | System crash detected in Module X
+2025-11-18 23:12:12 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:13 | CRITICAL | Starting system initialization
+2025-11-18 23:12:14 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:15 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:12:16 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:12:17 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:12:18 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:19 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:20 | ERROR | System crash detected in Module X
+2025-11-18 23:12:21 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:12:22 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:12:23 | ERROR | Starting system initialization
+2025-11-18 23:12:24 | CRITICAL | System crash detected in Module X
+2025-11-18 23:12:25 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:12:26 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:12:27 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:12:28 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:12:29 | WARNING | System crash detected in Module X
+2025-11-18 23:12:30 | ERROR | System crash detected in Module X
+2025-11-18 23:12:31 | ERROR | Retrying database connection
+2025-11-18 23:12:32 | CRITICAL | Starting system initialization
+2025-11-18 23:12:33 | ERROR | Starting system initialization
+2025-11-18 23:12:34 | WARNING | Memory usage crossed 90%
+2025-11-18 23:12:35 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:36 | WARNING | Starting system initialization
+2025-11-18 23:12:37 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:38 | CRITICAL | Starting system initialization
+2025-11-18 23:12:39 | INFO | Retrying database connection
+2025-11-18 23:12:40 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:12:41 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:12:42 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:12:43 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:12:44 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:12:45 | CRITICAL | Starting system initialization
+2025-11-18 23:12:46 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:47 | ERROR | System crash detected in Module X
+2025-11-18 23:12:48 | ERROR | System crash detected in Module X
+2025-11-18 23:12:49 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:50 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:51 | INFO | System crash detected in Module X
+2025-11-18 23:12:52 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:53 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:54 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:55 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:12:56 | ERROR | Memory usage crossed 90%
+2025-11-18 23:12:57 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:12:58 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:12:59 | INFO | Retrying database connection
+2025-11-18 23:13:00 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:13:01 | ERROR | Memory usage crossed 90%
+2025-11-18 23:13:02 | ERROR | Starting system initialization
+2025-11-18 23:13:03 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:13:04 | CRITICAL | Retrying database connection
+2025-11-18 23:13:05 | WARNING | System crash detected in Module X
+2025-11-18 23:13:06 | WARNING | Retrying database connection
+2025-11-18 23:13:07 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:13:08 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:13:09 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:10 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:11 | ERROR | Starting system initialization
+2025-11-18 23:13:12 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:13 | CRITICAL | Starting system initialization
+2025-11-18 23:13:14 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:15 | ERROR | System crash detected in Module X
+2025-11-18 23:13:16 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:13:17 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:18 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:13:19 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:20 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:13:21 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:22 | CRITICAL | System crash detected in Module X
+2025-11-18 23:13:23 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:24 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:25 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:13:26 | WARNING | System crash detected in Module X
+2025-11-18 23:13:27 | WARNING | Memory usage crossed 90%
+2025-11-18 23:13:28 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:13:29 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:30 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:13:31 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:13:33 | CRITICAL | Retrying database connection
+2025-11-18 23:13:34 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:13:35 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:36 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:13:37 | CRITICAL | System crash detected in Module X
+2025-11-18 23:13:38 | CRITICAL | Starting system initialization
+2025-11-18 23:13:39 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:13:40 | WARNING | Starting system initialization
+2025-11-18 23:13:41 | INFO | Starting system initialization
+2025-11-18 23:13:42 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:13:43 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:13:44 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:45 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:13:46 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:13:47 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:48 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:13:49 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:13:50 | INFO | Retrying database connection
+2025-11-18 23:13:51 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:13:52 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:13:53 | INFO | Retrying database connection
+2025-11-18 23:13:54 | INFO | Memory usage crossed 90%
+2025-11-18 23:13:55 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:13:56 | CRITICAL | Starting system initialization
+2025-11-18 23:13:57 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:13:58 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:13:59 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:14:00 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:01 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:02 | CRITICAL | Starting system initialization
+2025-11-18 23:14:03 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:14:04 | WARNING | System crash detected in Module X
+2025-11-18 23:14:05 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:06 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:07 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:08 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:14:09 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:10 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:11 | CRITICAL | Starting system initialization
+2025-11-18 23:14:13 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:14 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:14:15 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:16 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:14:17 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:18 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:19 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:14:20 | INFO | System crash detected in Module X
+2025-11-18 23:14:21 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:22 | INFO | System crash detected in Module X
+2025-11-18 23:14:23 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:24 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:14:25 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:14:26 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:14:27 | WARNING | Retrying database connection
+2025-11-18 23:14:28 | WARNING | Starting system initialization
+2025-11-18 23:14:29 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:30 | CRITICAL | System crash detected in Module X
+2025-11-18 23:14:31 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:32 | INFO | Retrying database connection
+2025-11-18 23:14:33 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:14:34 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:35 | WARNING | Memory usage crossed 90%
+2025-11-18 23:14:36 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:14:37 | INFO | Starting system initialization
+2025-11-18 23:14:38 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:39 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:40 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:14:41 | ERROR | Memory usage crossed 90%
+2025-11-18 23:14:42 | CRITICAL | Starting system initialization
+2025-11-18 23:14:43 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:14:44 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:14:45 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:14:46 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:14:47 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:48 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:49 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:14:50 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:14:51 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:52 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:53 | WARNING | Starting system initialization
+2025-11-18 23:14:54 | WARNING | Memory usage crossed 90%
+2025-11-18 23:14:55 | ERROR | System crash detected in Module X
+2025-11-18 23:14:56 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:14:57 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:14:58 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:14:59 | WARNING | Starting system initialization
+2025-11-18 23:15:00 | CRITICAL | Starting system initialization
+2025-11-18 23:15:01 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:15:02 | CRITICAL | Starting system initialization
+2025-11-18 23:15:03 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:04 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:15:05 | CRITICAL | Starting system initialization
+2025-11-18 23:15:06 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:15:07 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:15:08 | ERROR | Memory usage crossed 90%
+2025-11-18 23:15:09 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:15:10 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:11 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:12 | WARNING | System crash detected in Module X
+2025-11-18 23:15:13 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:15:14 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:15 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:16 | WARNING | System crash detected in Module X
+2025-11-18 23:15:17 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:15:18 | INFO | Retrying database connection
+2025-11-18 23:15:19 | INFO | Starting system initialization
+2025-11-18 23:15:20 | WARNING | Starting system initialization
+2025-11-18 23:15:21 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:15:22 | INFO | Starting system initialization
+2025-11-18 23:15:23 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:15:24 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:25 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:26 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:15:27 | WARNING | Memory usage crossed 90%
+2025-11-18 23:15:28 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:15:29 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:30 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:31 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:32 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:15:33 | WARNING | Retrying database connection
+2025-11-18 23:15:34 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:15:35 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:15:36 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:15:37 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:38 | INFO | Memory usage crossed 90%
+2025-11-18 23:15:39 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:40 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:41 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:15:42 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:15:43 | WARNING | System crash detected in Module X
+2025-11-18 23:15:44 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:15:45 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:46 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:47 | ERROR | System crash detected in Module X
+2025-11-18 23:15:48 | WARNING | System crash detected in Module X
+2025-11-18 23:15:49 | INFO | System crash detected in Module X
+2025-11-18 23:15:50 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:15:51 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:52 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:53 | WARNING | System crash detected in Module X
+2025-11-18 23:15:54 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:15:55 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:15:56 | ERROR | Starting system initialization
+2025-11-18 23:15:57 | ERROR | System crash detected in Module X
+2025-11-18 23:15:58 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:15:59 | WARNING | Starting system initialization
+2025-11-18 23:16:00 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:16:01 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:16:02 | INFO | Memory usage crossed 90%
+2025-11-18 23:16:03 | ERROR | System crash detected in Module X
+2025-11-18 23:16:04 | INFO | System crash detected in Module X
+2025-11-18 23:16:05 | INFO | Starting system initialization
+2025-11-18 23:16:06 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:16:07 | ERROR | Retrying database connection
+2025-11-18 23:16:08 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:16:09 | WARNING | Retrying database connection
+2025-11-18 23:16:10 | CRITICAL | Starting system initialization
+2025-11-18 23:16:11 | WARNING | System crash detected in Module X
+2025-11-18 23:16:12 | WARNING | Retrying database connection
+2025-11-18 23:16:13 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:16:14 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:16:15 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:16 | CRITICAL | Starting system initialization
+2025-11-18 23:16:17 | ERROR | Memory usage crossed 90%
+2025-11-18 23:16:18 | INFO | Memory usage crossed 90%
+2025-11-18 23:16:19 | ERROR | Retrying database connection
+2025-11-18 23:16:20 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:16:21 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:22 | INFO | Memory usage crossed 90%
+2025-11-18 23:16:23 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:16:24 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:16:25 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:16:26 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:27 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:16:28 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:16:29 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:30 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:16:31 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:16:32 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:16:33 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:16:34 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:16:35 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:16:36 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:37 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:38 | INFO | Memory usage crossed 90%
+2025-11-18 23:16:40 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:16:41 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:16:42 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:43 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:16:44 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:16:45 | CRITICAL | System crash detected in Module X
+2025-11-18 23:16:46 | INFO | Retrying database connection
+2025-11-18 23:16:47 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:16:48 | ERROR | Starting system initialization
+2025-11-18 23:16:49 | ERROR | Retrying database connection
+2025-11-18 23:16:50 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:16:51 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:16:52 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:16:53 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:54 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:16:55 | ERROR | Starting system initialization
+2025-11-18 23:16:56 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:16:57 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:16:58 | ERROR | System crash detected in Module X
+2025-11-18 23:16:59 | INFO | Retrying database connection
+2025-11-18 23:17:00 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:01 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:17:02 | CRITICAL | System crash detected in Module X
+2025-11-18 23:17:03 | ERROR | System crash detected in Module X
+2025-11-18 23:17:04 | WARNING | Retrying database connection
+2025-11-18 23:17:05 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:06 | WARNING | Memory usage crossed 90%
+2025-11-18 23:17:07 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:08 | ERROR | Memory usage crossed 90%
+2025-11-18 23:17:09 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:10 | INFO | System crash detected in Module X
+2025-11-18 23:17:11 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:12 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:13 | WARNING | Memory usage crossed 90%
+2025-11-18 23:17:14 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:17:15 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:16 | INFO | Starting system initialization
+2025-11-18 23:17:17 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:18 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:17:19 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:20 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:21 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:22 | INFO | Starting system initialization
+2025-11-18 23:17:23 | ERROR | System crash detected in Module X
+2025-11-18 23:17:24 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:25 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:26 | CRITICAL | Retrying database connection
+2025-11-18 23:17:28 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:17:29 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:30 | WARNING | Memory usage crossed 90%
+2025-11-18 23:17:31 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:17:34 | WARNING | Starting system initialization
+2025-11-18 23:17:35 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:17:36 | WARNING | Retrying database connection
+2025-11-18 23:17:37 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:39 | WARNING | System crash detected in Module X
+2025-11-18 23:17:40 | WARNING | System crash detected in Module X
+2025-11-18 23:17:41 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:42 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:17:43 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:44 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:45 | INFO | Retrying database connection
+2025-11-18 23:17:46 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:17:47 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:17:48 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:17:49 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:50 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:17:51 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:17:52 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:53 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:17:54 | CRITICAL | Retrying database connection
+2025-11-18 23:17:55 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:17:56 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:17:57 | ERROR | Memory usage crossed 90%
+2025-11-18 23:17:58 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:17:59 | ERROR | Memory usage crossed 90%
+2025-11-18 23:18:00 | ERROR | System crash detected in Module X
+2025-11-18 23:18:01 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:02 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:18:03 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:18:04 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:18:05 | CRITICAL | Retrying database connection
+2025-11-18 23:18:06 | WARNING | Retrying database connection
+2025-11-18 23:18:07 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:18:08 | ERROR | System crash detected in Module X
+2025-11-18 23:18:09 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:18:10 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:11 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:18:12 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:18:13 | WARNING | Starting system initialization
+2025-11-18 23:18:14 | INFO | Retrying database connection
+2025-11-18 23:18:15 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:16 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:18:17 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:18:18 | WARNING | Retrying database connection
+2025-11-18 23:18:19 | WARNING | System crash detected in Module X
+2025-11-18 23:18:20 | WARNING | System crash detected in Module X
+2025-11-18 23:18:21 | INFO | System crash detected in Module X
+2025-11-18 23:18:22 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:29 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:18:30 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:18:31 | WARNING | System crash detected in Module X
+2025-11-18 23:18:32 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:18:33 | INFO | Starting system initialization
+2025-11-18 23:18:34 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:35 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:18:36 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:18:37 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:38 | CRITICAL | System crash detected in Module X
+2025-11-18 23:18:39 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:18:40 | ERROR | Retrying database connection
+2025-11-18 23:18:41 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:18:42 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:18:43 | WARNING | Memory usage crossed 90%
+2025-11-18 23:18:44 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:18:45 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:18:46 | WARNING | System crash detected in Module X
+2025-11-18 23:18:47 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:18:48 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:49 | INFO | Retrying database connection
+2025-11-18 23:18:50 | WARNING | System crash detected in Module X
+2025-11-18 23:18:51 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:18:52 | ERROR | System crash detected in Module X
+2025-11-18 23:18:53 | INFO | Starting system initialization
+2025-11-18 23:18:54 | CRITICAL | Retrying database connection
+2025-11-18 23:18:55 | WARNING | Retrying database connection
+2025-11-18 23:18:56 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:18:57 | WARNING | Memory usage crossed 90%
+2025-11-18 23:18:58 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:18:59 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:00 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:19:01 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:02 | INFO | Memory usage crossed 90%
+2025-11-18 23:19:03 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:04 | INFO | Starting system initialization
+2025-11-18 23:19:05 | CRITICAL | Retrying database connection
+2025-11-18 23:19:06 | CRITICAL | System crash detected in Module X
+2025-11-18 23:19:07 | WARNING | Starting system initialization
+2025-11-18 23:19:08 | ERROR | Memory usage crossed 90%
+2025-11-18 23:19:09 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:10 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:19:11 | CRITICAL | Retrying database connection
+2025-11-18 23:19:12 | WARNING | Starting system initialization
+2025-11-18 23:19:13 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:14 | CRITICAL | System crash detected in Module X
+2025-11-18 23:19:15 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:19:16 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:17 | ERROR | System crash detected in Module X
+2025-11-18 23:19:18 | CRITICAL | System crash detected in Module X
+2025-11-18 23:19:19 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:20 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:19:21 | CRITICAL | System crash detected in Module X
+2025-11-18 23:19:22 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:23 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:19:24 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:19:25 | WARNING | Starting system initialization
+2025-11-18 23:19:26 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:27 | WARNING | Memory usage crossed 90%
+2025-11-18 23:19:28 | CRITICAL | Starting system initialization
+2025-11-18 23:19:29 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:30 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:19:31 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:19:32 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:19:33 | ERROR | Starting system initialization
+2025-11-18 23:19:34 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:35 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:36 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:19:37 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:38 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:19:39 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:19:40 | ERROR | Starting system initialization
+2025-11-18 23:19:41 | INFO | Memory usage crossed 90%
+2025-11-18 23:19:42 | ERROR | Retrying database connection
+2025-11-18 23:19:43 | CRITICAL | Retrying database connection
+2025-11-18 23:19:44 | WARNING | Starting system initialization
+2025-11-18 23:19:45 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:46 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:19:47 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:48 | WARNING | System crash detected in Module X
+2025-11-18 23:19:49 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:19:50 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:51 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:19:52 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:19:53 | INFO | System crash detected in Module X
+2025-11-18 23:19:54 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:19:55 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:19:56 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:19:57 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:19:58 | WARNING | Starting system initialization
+2025-11-18 23:19:59 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:20:00 | WARNING | System crash detected in Module X
+2025-11-18 23:20:01 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:20:02 | ERROR | Memory usage crossed 90%
+2025-11-18 23:20:03 | ERROR | Starting system initialization
+2025-11-18 23:20:04 | WARNING | Starting system initialization
+2025-11-18 23:20:05 | WARNING | Retrying database connection
+2025-11-18 23:20:06 | INFO | System crash detected in Module X
+2025-11-18 23:20:07 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:20:08 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:20:09 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:10 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:20:11 | ERROR | Retrying database connection
+2025-11-18 23:20:12 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:20:13 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:20:14 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:20:15 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:16 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:20:17 | CRITICAL | Starting system initialization
+2025-11-18 23:20:18 | WARNING | Retrying database connection
+2025-11-18 23:20:19 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:20 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:21 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:20:22 | CRITICAL | Starting system initialization
+2025-11-18 23:20:23 | CRITICAL | System crash detected in Module X
+2025-11-18 23:20:24 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:20:25 | CRITICAL | System crash detected in Module X
+2025-11-18 23:20:26 | INFO | System crash detected in Module X
+2025-11-18 23:20:27 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:20:28 | WARNING | Retrying database connection
+2025-11-18 23:20:29 | ERROR | Retrying database connection
+2025-11-18 23:20:30 | CRITICAL | Retrying database connection
+2025-11-18 23:20:31 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:20:32 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:33 | WARNING | Retrying database connection
+2025-11-18 23:20:34 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:35 | WARNING | Retrying database connection
+2025-11-18 23:20:36 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:20:37 | WARNING | Starting system initialization
+2025-11-18 23:20:38 | CRITICAL | System crash detected in Module X
+2025-11-18 23:20:39 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:20:40 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:20:41 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:20:42 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:43 | INFO | Memory usage crossed 90%
+2025-11-18 23:20:45 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:46 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:20:47 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:48 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:20:49 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:20:50 | ERROR | Starting system initialization
+2025-11-18 23:20:51 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:52 | ERROR | Memory usage crossed 90%
+2025-11-18 23:20:53 | ERROR | Retrying database connection
+2025-11-18 23:20:54 | INFO | Retrying database connection
+2025-11-18 23:20:55 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:20:56 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:20:57 | ERROR | Retrying database connection
+2025-11-18 23:20:58 | ERROR | Retrying database connection
+2025-11-18 23:20:59 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:21:00 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:21:01 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:02 | INFO | Retrying database connection
+2025-11-18 23:21:03 | ERROR | Starting system initialization
+2025-11-18 23:21:04 | WARNING | System crash detected in Module X
+2025-11-18 23:21:05 | INFO | Memory usage crossed 90%
+2025-11-18 23:21:06 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:07 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:21:08 | WARNING | Memory usage crossed 90%
+2025-11-18 23:21:09 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:21:10 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:11 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:12 | CRITICAL | System crash detected in Module X
+2025-11-18 23:21:13 | WARNING | Retrying database connection
+2025-11-18 23:21:14 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:15 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:21:16 | CRITICAL | Retrying database connection
+2025-11-18 23:21:17 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:18 | WARNING | Memory usage crossed 90%
+2025-11-18 23:21:19 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:21:20 | INFO | Memory usage crossed 90%
+2025-11-18 23:21:21 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:21:22 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:23 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:24 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:25 | INFO | Starting system initialization
+2025-11-18 23:21:26 | WARNING | Starting system initialization
+2025-11-18 23:21:27 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:28 | ERROR | Memory usage crossed 90%
+2025-11-18 23:21:29 | INFO | Starting system initialization
+2025-11-18 23:21:30 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:31 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:32 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:33 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:34 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:21:35 | INFO | Starting system initialization
+2025-11-18 23:21:36 | WARNING | Memory usage crossed 90%
+2025-11-18 23:21:37 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:21:38 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:39 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:21:40 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:41 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:42 | CRITICAL | Retrying database connection
+2025-11-18 23:21:43 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:44 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:21:45 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:21:46 | WARNING | Starting system initialization
+2025-11-18 23:21:47 | WARNING | Retrying database connection
+2025-11-18 23:21:48 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:21:49 | INFO | Memory usage crossed 90%
+2025-11-18 23:21:50 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:21:51 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:21:52 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:21:53 | WARNING | Starting system initialization
+2025-11-18 23:21:54 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:21:55 | WARNING | Starting system initialization
+2025-11-18 23:21:56 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:21:57 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:21:58 | CRITICAL | Starting system initialization
+2025-11-18 23:21:59 | ERROR | Starting system initialization
+2025-11-18 23:22:00 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:01 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:22:02 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:03 | WARNING | System crash detected in Module X
+2025-11-18 23:22:04 | WARNING | System crash detected in Module X
+2025-11-18 23:22:05 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:22:06 | WARNING | System crash detected in Module X
+2025-11-18 23:22:07 | WARNING | System crash detected in Module X
+2025-11-18 23:22:08 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:22:09 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:22:10 | WARNING | Retrying database connection
+2025-11-18 23:22:11 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:22:12 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:13 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:22:14 | ERROR | Retrying database connection
+2025-11-18 23:22:15 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:22:16 | INFO | Memory usage crossed 90%
+2025-11-18 23:22:17 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:22:18 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:19 | WARNING | System crash detected in Module X
+2025-11-18 23:22:20 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:22:21 | CRITICAL | System crash detected in Module X
+2025-11-18 23:22:22 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:23 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:22:24 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:22:25 | WARNING | Memory usage crossed 90%
+2025-11-18 23:22:26 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:22:27 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:28 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:22:29 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:30 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:22:31 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:32 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:33 | CRITICAL | System crash detected in Module X
+2025-11-18 23:22:34 | ERROR | Memory usage crossed 90%
+2025-11-18 23:22:35 | INFO | System crash detected in Module X
+2025-11-18 23:22:36 | CRITICAL | Starting system initialization
+2025-11-18 23:22:37 | WARNING | Memory usage crossed 90%
+2025-11-18 23:22:38 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:22:39 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:22:40 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:22:41 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:22:42 | ERROR | Memory usage crossed 90%
+2025-11-18 23:22:43 | WARNING | System crash detected in Module X
+2025-11-18 23:22:44 | CRITICAL | Starting system initialization
+2025-11-18 23:22:45 | INFO | System crash detected in Module X
+2025-11-18 23:22:46 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:47 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:22:48 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:22:49 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:22:50 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:22:51 | ERROR | Retrying database connection
+2025-11-18 23:22:52 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:22:53 | INFO | Starting system initialization
+2025-11-18 23:22:54 | CRITICAL | System crash detected in Module X
+2025-11-18 23:22:55 | CRITICAL | Retrying database connection
+2025-11-18 23:22:56 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:22:58 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:22:59 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:23:00 | ERROR | System crash detected in Module X
+2025-11-18 23:23:01 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:02 | INFO | Memory usage crossed 90%
+2025-11-18 23:23:03 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:04 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:05 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:06 | WARNING | Memory usage crossed 90%
+2025-11-18 23:23:07 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:08 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:23:09 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:10 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:11 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:12 | CRITICAL | System crash detected in Module X
+2025-11-18 23:23:13 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:14 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:15 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:23:16 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:23:17 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:23:18 | CRITICAL | System crash detected in Module X
+2025-11-18 23:23:19 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:20 | ERROR | Memory usage crossed 90%
+2025-11-18 23:23:21 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:22 | WARNING | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:23 | CRITICAL | System crash detected in Module X
+2025-11-18 23:23:24 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:25 | CRITICAL | System crash detected in Module X
+2025-11-18 23:23:26 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:23:27 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:28 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:23:29 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:30 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:23:31 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:32 | WARNING | Memory usage crossed 90%
+2025-11-18 23:23:33 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:34 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:35 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:36 | CRITICAL | Starting system initialization
+2025-11-18 23:23:37 | ERROR | Retrying database connection
+2025-11-18 23:23:38 | WARNING | Starting system initialization
+2025-11-18 23:23:39 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:40 | WARNING | System crash detected in Module X
+2025-11-18 23:23:41 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:23:42 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:43 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:44 | ERROR | Starting system initialization
+2025-11-18 23:23:45 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:23:46 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:23:47 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:23:48 | WARNING | Memory usage crossed 90%
+2025-11-18 23:23:49 | WARNING | Retrying database connection
+2025-11-18 23:23:50 | INFO | Memory usage crossed 90%
+2025-11-18 23:23:51 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:52 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:53 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:23:54 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:23:55 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:23:56 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:23:57 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:23:58 | CRITICAL | System crash detected in Module X
+2025-11-18 23:23:59 | ERROR | Starting system initialization
+2025-11-18 23:24:00 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:24:01 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:24:02 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:03 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:24:04 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:24:05 | CRITICAL | System crash detected in Module X
+2025-11-18 23:24:06 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:24:07 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:24:08 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:24:09 | CRITICAL | Starting system initialization
+2025-11-18 23:24:10 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:24:11 | ERROR | Memory usage crossed 90%
+2025-11-18 23:24:12 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:13 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:24:14 | WARNING | System crash detected in Module X
+2025-11-18 23:24:15 | INFO | Memory usage crossed 90%
+2025-11-18 23:24:16 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:24:17 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:24:18 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:19 | INFO | System crash detected in Module X
+2025-11-18 23:24:20 | CRITICAL | Retrying database connection
+2025-11-18 23:24:21 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:24:22 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:24:23 | INFO | Failed to authenticate user: invalid token
+2025-11-18 23:24:24 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:24:25 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:24:26 | INFO | Disk usage at 85% on /dev/sda1
+2025-11-18 23:24:27 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:24:28 | INFO | Starting system initialization
+2025-11-18 23:24:29 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:30 | WARNING | Memory usage crossed 90%
+2025-11-18 23:24:31 | CRITICAL | System crash detected in Module X
+2025-11-18 23:24:32 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:24:33 | ERROR | Starting system initialization
+2025-11-18 23:24:34 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:24:35 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:24:36 | WARNING | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:24:37 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:38 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:24:39 | WARNING | System crash detected in Module X
+2025-11-18 23:24:40 | WARNING | Disk usage at 85% on /dev/sda1
+2025-11-18 23:24:41 | CRITICAL | Starting system initialization
+2025-11-18 23:24:42 | INFO | Starting system initialization
+2025-11-18 23:24:43 | WARNING | Memory usage crossed 90%
+2025-11-18 23:24:44 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:24:45 | ERROR | Starting system initialization
+2025-11-18 23:24:46 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:24:47 | CRITICAL | Starting system initialization
+2025-11-18 23:24:48 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:24:49 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:24:50 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:24:51 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:24:52 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:24:53 | INFO | Retrying database connection
+2025-11-18 23:24:54 | ERROR | Retrying database connection
+2025-11-18 23:24:55 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:24:56 | WARNING | System crash detected in Module X
+2025-11-18 23:24:57 | ERROR | Retrying database connection
+2025-11-18 23:24:58 | WARNING | Retrying database connection
+2025-11-18 23:24:59 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:00 | WARNING | Memory usage crossed 90%
+2025-11-18 23:25:01 | ERROR | Failed to authenticate user: invalid token
+2025-11-18 23:25:02 | CRITICAL | Retrying database connection
+2025-11-18 23:25:03 | CRITICAL | Retrying database connection
+2025-11-18 23:25:04 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:25:05 | CRITICAL | Starting system initialization
+2025-11-18 23:25:06 | ERROR | Starting system initialization
+2025-11-18 23:25:07 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:08 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:09 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:25:10 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:11 | ERROR | System crash detected in Module X
+2025-11-18 23:25:12 | INFO | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:25:13 | INFO | Retrying database connection
+2025-11-18 23:25:14 | INFO | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:15 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:16 | CRITICAL | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:17 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:25:18 | INFO | Memory usage crossed 90%
+2025-11-18 23:25:19 | CRITICAL | Retrying database connection
+2025-11-18 23:25:20 | WARNING | Memory usage crossed 90%
+2025-11-18 23:25:21 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:22 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:25:23 | CRITICAL | Disk usage at 85% on /dev/sda1
+2025-11-18 23:25:24 | ERROR | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:25 | INFO | Memory usage crossed 90%
+2025-11-18 23:25:26 | CRITICAL | System crash detected in Module X
+2025-11-18 23:25:27 | WARNING | Memory usage crossed 90%
+2025-11-18 23:25:28 | ERROR | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:29 | WARNING | Unauthorized access attempt from IP 192.168.1.45
+2025-11-18 23:25:30 | INFO | Memory usage crossed 90%
+2025-11-18 23:25:31 | WARNING | Memory usage crossed 90%
+2025-11-18 23:25:32 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:25:33 | WARNING | Starting system initialization
+2025-11-18 23:25:34 | ERROR | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:25:35 | CRITICAL | Database connection failed: timeout after 30s
+2025-11-18 23:25:36 | CRITICAL | Retrying database connection
+2025-11-18 23:25:37 | CRITICAL | Stack trace: File 'app.py', line 42, in <module>
+2025-11-18 23:25:38 | WARNING | Retrying database connection
+2025-11-18 23:25:39 | CRITICAL | System crash detected in Module X
+2025-11-18 23:25:40 | INFO | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:41 | CRITICAL | Loading configuration file /etc/app/config.yaml
+2025-11-18 23:25:42 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:25:43 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:25:44 | WARNING | System crash detected in Module X
+2025-11-18 23:25:45 | CRITICAL | Memory usage crossed 90%
+2025-11-18 23:25:46 | ERROR | Database connection failed: timeout after 30s
+2025-11-18 23:25:47 | WARNING | System crash detected in Module X
+2025-11-18 23:25:48 | CRITICAL | Failed to authenticate user: invalid token
+2025-11-18 23:25:49 | INFO | Memory usage crossed 90%
+2025-11-18 23:25:50 | ERROR | Disk usage at 85% on /dev/sda1
+2025-11-18 23:25:51 | WARNING | Failed to authenticate user: invalid token
+2025-11-18 23:25:52 | WARNING | Retrying database connection
+2025-11-18 23:25:53 | INFO | Memory usage crossed 90%
+2025-11-18 23:25:54 | INFO | Retrying database connection
+2025-11-18 23:25:55 | WARNING | System crash detected in Module X
+2025-11-18 23:25:56 | INFO | System crash detected in Module X
+2025-11-18 23:25:57 | ERROR | Memory usage crossed 90%
+2025-11-18 23:25:58 | WARNING | Database connection failed: timeout after 30s
+2025-11-18 23:25:59 | INFO | Database connection failed: timeout after 30s
+2025-11-18 23:26:00 | INFO | Failed to authenticate user: invalid token
