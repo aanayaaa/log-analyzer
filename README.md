@@ -1,220 +1,199 @@
-"# log-analyzer" 
-# 🔍 Log Analyzer & Email Alert System (Python Automation)
+# 🔍 Log Analyzer & Real-Time Monitoring Dashboard
 
-A production-style log monitoring and alerting system that:
-- Reads and parses system log files  
-- Detects errors, warnings, and security issues  
-- Generates summaries and analytics  
-- Sends email alerts when critical events occur  
-- Can run automatically via Windows Task Scheduler  
+A full **production-grade log monitoring system** built with:
 
-This project is designed similar to real supportability tools used in companies like Cohesity, where log analysis, automation, and monitoring are core workflows.
+* **Python**
+* **Streamlit (real-time dashboard)**
+* **Gmail SMTP Alerts (App Password)**
+* **Slack Alerts (Webhook)**
+* **Log Simulator (generates live logs)**
+* **Modular Parser + Analyzer architecture**
+
+This project mimics the responsibilities of a **Supportability / Site Reliability / DevOps Engineer**, making it perfect for:
+
+* Cohesity interviews (Supportability / Support Engineering)
+* Production monitoring simulations
+* Resume projects
+* GitHub portfolio
+* Real-time demo deployments
 
 ---
 
 ## 🚀 Features
 
-### ✔ Log Reader  
-Reads `.log` files line-by-line and supports large log files.
+✅ **1. Real-Time Streamlit Dashboard**
 
-### ✔ Log Parser (Regex + Multiline Support)
-Extracts:
-- Timestamp  
-- Log Level (INFO, WARNING, ERROR, CRITICAL)  
-- Message  
+* Live auto-refresh (1s, 2s, 5s...)
+* Dark theme professional UI
+* Error trends by hour
+* Most repeated errors
+* Security alerts (unauthorized attempts)
+* Keyword-based filtering
+* Raw logs viewer with highlighting
 
-Supports **multiline stack traces**, grouping them under one log entry.
+✅ **2. Log Analyzer (Parser + Analyzer)**
 
-### ✔ Log Analyzer
-Generates:
-- Severity count  
-- Most repeated errors  
-- Errors grouped by hour  
-- Keyword-based search (e.g., unauthorized access)
+* Regex-based structured parsing
+* Extracts: timestamp, level, message, stacktrace
+* Aggregates errors by level & hour
+* Detects repeated patterns
+* Keyword detection
 
-### ✔ Email Alert System (SMTP)
-Automatically sends alerts when:
-- `CRITICAL` logs occur  
-- `ERROR` count exceeds threshold  
-- Security keyword appears (e.g., “unauthorized”)  
+✅ **3. Real-Time Alert Engine**
 
-### ✔ Automation using Windows Task Scheduler
-Runs automatically:
-- Every 5 minutes  
-- Hourly  
-- Daily  
-- At system startup  
+* Watches log file continuously
+* Sends alerts for ERROR & CRITICAL logs
+* Gmail SMTP alerts (with App Password)
+* Optional Slack alerts
 
----
+✅ **4. Log Simulator (Real-time Log Generator)**
 
-## 🏗 Project Structure
+* Generates random logs every second
+* Useful for demo & testing
+* Feeds dashboard + alert engine
 
+✅ **5. Clean File Structure**
+
+```
 log-analyzer/
-│
-├── main.py # Main controller
-├── parser.py # Log reading + regex parsing
-├── analyzer.py # Summaries + analytics
-├── alert.py # Email alert system
-├── run_log_analyzer.bat # Automation batch script
-│
-└── logs/
-└── sample.log # Example log file
-
-
----
-
-## 🛠 Tech Stack
-
-- Python 3.12  
-- Regex (`re`)  
-- Collections (`Counter`, `defaultdict`)  
-- SMTP (email automation)  
-- Windows Batch  
-- Windows Task Scheduler  
+│​​​── dashboard.py
+│​​​── alert.py
+│​​​── log_simulator.py
+│​​​── log_parser.py
+│​​​── analyzer.py
+│​​​── utils.py
+│​​​── requirements.txt
+│​​​── logs/
+│​​​     └── sample.log
+└── .streamlit/
+      └── theme.toml
+```
 
 ---
 
-## 📊 Example Output
+## 🛠 Setup Instructions
 
-### Log Summary
-Total Entries: 53
-Log Level Counts: Counter({'ERROR': 21, 'INFO': 18, 'WARNING': 11, 'CRITICAL': 3})
+**1. Clone the Repository**
 
+```
+git clone https://github.com/<your-username>/log-analyzer.git
+cd log-analyzer
+```
 
-### Top Errors
-2x - Database connection failed: timeout after 30s
-1x - Unauthorized access attempt from IP 192.168.1.45
+**2. Install Dependencies**
 
+```
+pip install -r requirements.txt
+```
 
-### Email Alert
-=== SENDING EMAIL ALERT ===
-[ALERT] Email sent successfully
+**3. Run the Log Simulator**
 
----
+```
+python log_simulator.py
+```
 
-## 📩 Email Alert Trigger Conditions
+This will create live logs inside `logs/sample.log`.
 
-An email is sent when:
-- A CRITICAL log appears  
-- Total ERROR logs exceed threshold  
-- Log contains keywords like `"unauthorized"`  
+### **4. Run the Dashboard**
 
-The email contains:
-- Severity  
-- Timestamp  
-- Error message  
-- Summary  
+```
+streamlit run dashboard.py
+```
 
----
+**5. Run the Alert Engine** (separate terminal)
 
-## ⚙ Automation Setup (Windows Task Scheduler)
-
-### 1. Create `run_log_analyzer.bat` with:
-
-@echo off
-cd /d "C:\Users\HP\Desktop\log-analyzer"
-"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" main.py
-pause
-
-### 2. Open Task Scheduler  
-Press `Win + R` → type `taskschd.msc`
-
-### 3. Create Basic Task  
-→ Name: **Log Analyzer Automation**
-
-### 4. Set Trigger  
-Choose: Daily / Every 5 minutes / Hourly / At Startup
-
-### 5. Action → Start Program  
-Browse → select `run_log_analyzer.bat`
-
-Now the system runs automatically.
+```
+python alert.py
+```
 
 ---
 
-## 📐 Architecture Diagram
+📧 Gmail SMTP Alert Setup
 
-pgsql
-Copy code
-            ┌──────────────────────────┐
-            │        sample.log         │
-            └───────────────┬──────────┘
-                            │
-                   read_log_file()
-                            │
-                            ▼
-            ┌──────────────────────────┐
-            │        parser.py         │
-            │  Regex + stack trace     │
-            └───────────────┬──────────┘
-                            │
-                            ▼
-               Parsed log entries (dict)
-                            │
-                            ▼
-            ┌──────────────────────────┐
-            │       analyzer.py        │
-            │ Counts | Trends | Alerts │
-            └───────────────┬──────────┘
-                            │
-                            ▼
-                    Summary output
-                            │
-                            ▼
-            ┌──────────────────────────┐
-            │        alert.py          │
-            │    Email notifications   │
-            └──────────────────────────┘
-yaml
-Copy code
+**Step 1 — Enable 2-Step Verification**
+
+[https://myaccount.google.com/security](https://myaccount.google.com/security)
+
+**Step 2 — Generate App Password**
+
+[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
+
+Choose:
+
+* App → Mail
+* Device → Windows Computer
+
+Copy the 16-character password.
+
+**Step 3 — Add to alert.py**
+
+```
+SENDER = "you@gmail.com"
+APP_PASSWORD = "your16charpassword"
+RECEIVER = "you@gmail.com"
+```
+
+Done — your email alerts will work.
 
 ---
 
-## 🧪 How to Run
+🌐 Deploy to Streamlit Cloud
 
-### Manual:
-python main.py
+1. Push this project to GitHub
+2. Go to: [https://share.streamlit.io](https://share.streamlit.io)
+3. Click **New App**
+4. Select your repo
+5. Choose:
 
-shell
-Copy code
+    **Branch**: main
+    **File**: dashboard.py
+6. Click **Deploy**
 
-### Automated:
-run_log_analyzer.bat
-
-yaml
-Copy code
-or scheduled via Task Scheduler.
-
----
-
-## 🎯 Future Enhancements
-
-- Power BI/Tableau dashboard  
-- Flask web dashboard  
-- Multi-log directory monitoring  
-- Rate-limited email alerts  
-- Snowflake / SQL storage  
+Your dashboard will be live online.
 
 ---
 
-## ⭐ Why This Project is Valuable
+📊 Screenshots
 
-This project showcases skills in:
-- Log parsing  
-- Automation  
-- Monitoring systems  
-- Regex  
-- Email alerts  
-- OS-level scheduling  
-- Debugging  
-- System thinking  
-
-Perfect for roles such as:
-- Supportability Engineer  
-- SRE  
-- DevOps Engineer  
-- Cloud/Backend Engineer  
-- Automation Engineer  
+(Add after deployment)
 
 ---
 
+💡 Interview Talking Points
+
+Use these in your interview:
+
+* Built a **real-time monitoring dashboard** similar to internal tools used in production systems.
+* Implemented **alerting workflow** using Gmail SMTP (App Password) & Slack Webhooks.
+* Engineered a **custom log parser** using regex capturing timestamp, level, message, stacktrace.
+* Added **anomaly detection** via repeated error analysis.
+* Designed **hourly error aggregation** for trend analysis.
+* Implemented **auto-refreshing Streamlit dashboard** with Plotly charts.
+* Built a **log simulator** to mimic real production logs.
+
+They will be impressed.
+
+---
+
+📝 Requirements
+
+```
+streamlit
+plotly
+pandas
+requests
+```
+
+---
+
+⭐ Author
+
+**Aanaya Verma**
+
+If you like this project, ⭐ star the repo!
+
+---
+
+📬 Support
+
+Feel free to raise issues or request enhancements.
