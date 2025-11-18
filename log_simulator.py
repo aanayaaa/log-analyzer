@@ -1,8 +1,19 @@
+import os
 import time
 import random
 from datetime import datetime
 
-LOG_FILE = "logs/sample.log"
+# Always write logs to the correct directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+LOG_FILE = os.path.join(LOG_DIR, "sample.log")
+
+# Create logs folder if missing
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# Create log file if not present
+if not os.path.exists(LOG_FILE):
+    open(LOG_FILE, "w").close()
 
 messages = [
     "Starting system initialization",
@@ -19,13 +30,19 @@ messages = [
 
 levels = ["INFO", "WARNING", "ERROR", "CRITICAL"]
 
+print("🔥 Log simulator running... writing logs to:", LOG_FILE)
+print("-----------------------------------------------------------")
+
 while True:
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     level = random.choice(levels)
     msg = random.choice(messages)
 
-    with open(LOG_FILE, "a") as f:
-        f.write(f"{ts} | {level} | {msg}\n")
+    log_line = f"{ts} | {level} | {msg}\n"
 
-    print("Written:", ts, level, msg)
+    with open(LOG_FILE, "a") as f:
+        f.write(log_line)
+
+    print("Written:", log_line.strip())
+
     time.sleep(1)

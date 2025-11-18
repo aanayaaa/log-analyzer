@@ -1,7 +1,9 @@
-# dashboard.py
 import streamlit as st
 import pandas as pd
 import os
+import time
+import random
+from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 from streamlit_autorefresh import st_autorefresh
@@ -9,136 +11,137 @@ from streamlit_autorefresh import st_autorefresh
 from log_parser import read_log_file, parse_log_lines
 from analyzer import count_by_level, top_repeated_errors, errors_by_hour, keyword_search
 
-# -------------------------
-st.set_page_config(page_title="Live Log Monitoring Dashboard", layout="wide")
+# -----------------------------------------------------------
+# STREAMLIT CONFIG
+# -----------------------------------------------------------
+st.set_page_config(page_title="Live Log Dashboard", layout="wide")
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 LOG_PATH = os.path.join(BASE_DIR, "logs", "sample.log")
 
-# CSS (dark theme tweaks)
-st.markdown(
-    """
-    <style>
-    .block-container {padding-top: 1.0rem;}
-    .metric-card {background-color: #0b1220;padding:26px;border-radius:12px;border:1px solid #111827;text-align:center;}
-    [data-testid="stSidebar"] {background-color:#0f172a;}
-    .stSelectbox div, select, .stNumberInput input {background-color:#111827;color:white;}
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+# Detect Streamlit Cloud
+RUNNING_IN_CLOUD = os.environ.get("STREAMLIT_RUNTIME") == "cloud"
 
-# Sidebar controls
+# Make sure logs folder exists
+os.makedirs(os.path.join(BASE_DIR, "logs"), exist_ok=True)
+
+# -----------------------------------------------------------
+# CLOUD AUTO-LOG GENERATOR
+# -----------------------------------------------------------
+def generate_fake_logs():
+    """Generate logs automatically in Streamlit Cloud (so dashboard always works)."""
+    messages = [
+        "Starting system initialization",
+        "Loading configuration file /etc/app/config.yaml",
+        "Disk usage at 85% on /dev/sda1",
+        "Database connection failed: timeout after 30s",
+        "Unauthorized access attempt from IP 192.168.1.45",
+        "Stack trace: File 'app.py', line 42, in <module>",
+        "Memory usage crossed 90%",
+        "Retrying database connection",
+        "Failed to authenticate user: invalid token",
+        "System crash detected in Module X"
+    ]
+
+    levels = ["INFO", "WARNING", "ERROR", "CRITICAL"]
+
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    entry = f"{ts} | {random.choice(levels)} | {random.choice(messages)}\n"
+
+    with open(LOG_PATH, "a") as f:
+        f.write(entry)
+
+
+# -----------------------------------------------------------
+# LOAD LOG DATA
+# -----------------------------------------------------------
+def load_logs():
+    if not os.path.exists(LOG_PATH):
+        return pd.DataFrame()
+    return pd.DataFrame(parse_log_lines(read_log_file(LOG_PATH)))
+
+
+# -----------------------------------------------------------
+# SIDEBAR
+# -----------------------------------------------------------
 st.sidebar.header("Settings")
-auto_refresh = st.sidebar.checkbox("Auto refresh", value=True)
-interval = st.sidebar.selectbox("Refresh interval (seconds)", [1, 2, 3, 5, 7, 10], index=2)
-keyword_filter = st.sidebar.text_input("Filter keyword OPTIONAL")
+auto_refresh = st.sidebar.checkbox("Auto refresh", True)
+interval = st.sidebar.selectbox("Refresh interval (sec)", [1, 2, 3, 5, 10], 1)
+keyword_filter = st.sidebar.text_input("Filter logs by keyword")
+
 st.sidebar.markdown("---")
-st.sidebar.write("Developed by Aanaya Verma")
+st.sidebar.write("Developed by Aanaya Verma 💙")
 
-# Autorefresh (doesn't block — placed early so UI controls show)
-if auto_refresh:
-    st_autorefresh(interval=interval * 1000, key="logrefresh")
+# -----------------------------------------------------------
+# CLOUD LOG GENERATION
+# -----------------------------------------------------------
+if RUNNING_IN_CLOUD:
+    generate_fake_logs()
 
-# Load logs
-def load_df():
-    lines = read_log_file(LOG_PATH)
-    parsed = parse_log_lines(lines)
-    return pd.DataFrame(parsed)
-
-df = load_df()
+# -----------------------------------------------------------
+# LOAD LOGS FOR DISPLAY
+# -----------------------------------------------------------
+df = load_logs()
 
 if df.empty:
-    st.warning("No logs found yet... (run log_simulator.py in another terminal)")
-    st.stop()
-
-# Page title and metrics
-st.title("Log Monitoring Dashboard")
-st.write("Enterprise-grade real-time monitoring")
-
-counts = count_by_level(df.to_dict(orient="records"))
-c1, c2, c3, c4 = st.columns(4)
-
-c1.markdown(f"<div class='metric-card'><h4>INFO</h4><h2 style='color:#60a5fa'>{counts.get('INFO',0)}</h2></div>", unsafe_allow_html=True)
-c2.markdown(f"<div class='metric-card'><h4>WARNING</h4><h2 style='color:#fbbf24'>{counts.get('WARNING',0)}</h2></div>", unsafe_allow_html=True)
-c3.markdown(f"<div class='metric-card'><h4>ERROR</h4><h2 style='color:#f87171'>{counts.get('ERROR',0)}</h2></div>", unsafe_allow_html=True)
-c4.markdown(f"<div class='metric-card'><h4>CRITICAL</h4><h2 style='color:#ef4444'>{counts.get('CRITICAL',0)}</h2></div>", unsafe_allow_html=True)
-
-st.markdown("---")
-
-# Top repeated errors
-st.subheader("Top Repeated Errors")
-tops = top_repeated_errors(df.to_dict(orient="records"), top_n=8)
-error_df = pd.DataFrame(tops, columns=["message", "count"]) if tops else pd.DataFrame(columns=["message","count"])
-
-fig1 = px.bar(error_df, x="message", y="count", color="count", color_continuous_scale="Plasma")
-fig1.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a", font=dict(color="white"))
-st.plotly_chart(fig1, use_container_width=True)
-
-# Error trends
-st.subheader("Error Trends Over Time")
-hour_counts = errors_by_hour(df.to_dict(orient="records"))
-hour_df = pd.DataFrame(list(hour_counts.items()), columns=["hour", "count"]) if hour_counts else pd.DataFrame(columns=["hour","count"])
-if not hour_df.empty:
-    fig2 = go.Figure()
-    fig2.add_trace(go.Bar(x=hour_df["hour"], y=hour_df["count"], marker_color="#06b6d4"))
-    fig2.update_layout(paper_bgcolor="#0f172a", plot_bgcolor="#0f172a", font=dict(color="white"), title="Errors by Hour")
-    st.plotly_chart(fig2, use_container_width=True)
+    st.warning("No logs found yet…")
 else:
-    st.info("Not enough timestamped entries to plot hourly trend.")
+    # Page title
+    st.title("Real-Time Log Monitoring Dashboard")
 
-# Security Alerts
-st.subheader("Security Alerts (Unauthorized Attempts)")
-security_logs = keyword_search(df.to_dict(orient="records"), "unauthorized")
-if security_logs:
-    sec_df = pd.DataFrame(security_logs).drop(columns=["stacktrace"], errors="ignore")
-    st.dataframe(sec_df, use_container_width=True)
-else:
-    st.success("No unauthorized attempts detected.")
+    # Top metrics
+    counts = count_by_level(df.to_dict(orient="records"))
 
-# Raw logs (with filter + highlight)
-# ---------------------------------------------------------
-# RAW LOGS TABLE
-# ---------------------------------------------------------
-st.subheader("Raw Logs")
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("INFO", counts.get("INFO", 0))
+    col2.metric("WARNING", counts.get("WARNING", 0))
+    col3.metric("ERROR", counts.get("ERROR", 0))
+    col4.metric("CRITICAL", counts.get("CRITICAL", 0))
 
-# Better row choices for real-time logs
-row_count = st.selectbox(
-    "Rows to show",
-    ["All", 100, 500, 1000, 5000],
-    index=1
-)
+    st.divider()
 
-filtered_df = df.copy()
+    # Top repeated errors
+    st.subheader("Top Repeated Errors")
+    tops = top_repeated_errors(df.to_dict(orient="records"))
+    error_df = pd.DataFrame(tops, columns=["message", "count"])
 
-# Apply keyword filter
-if keyword_filter.strip():
-    k = keyword_filter.lower()
+    if not error_df.empty:
+        fig = px.bar(error_df, x="message", y="count", color="count")
+        fig.update_layout(paper_bgcolor="#0f172a", font=dict(color="white"))
+        st.plotly_chart(fig, width="stretch")
 
-    mask = filtered_df["message"].fillna("").str.contains(k, case=False, na=False) | \
-           filtered_df["stacktrace"].fillna("").str.contains(k, case=False, na=False)
+    # Errors over time
+    st.subheader("Error Trends Over Time")
+    hour_df = pd.DataFrame(errors_by_hour(df.to_dict(orient="records")).items(),
+                           columns=["hour", "count"])
+    if not hour_df.empty:
+        fig2 = go.Figure()
+        fig2.add_trace(go.Scatter(x=hour_df["hour"], y=hour_df["count"],
+                                  mode="lines+markers", line=dict(color="#06b6d4")))
+        fig2.update_layout(paper_bgcolor="#0f172a", font=dict(color="white"))
+        st.plotly_chart(fig2, width="stretch")
 
-    filtered_df = filtered_df[mask]
-
-    if filtered_df.empty:
-        st.warning("No matching logs found.")
+    # Security alerts
+    st.subheader("Security Alerts")
+    sec = keyword_search(df.to_dict(orient="records"), "unauthorized")
+    if sec:
+        st.dataframe(pd.DataFrame(sec))
     else:
-        # Highlight
-        display_df = filtered_df.copy()
-        display_df["message"] = display_df["message"].astype(str).str.replace(
-            k, f"<mark style='background:#38bdf8;color:#000'>{k}</mark>",
-            case=False, regex=True
-        )
-        display_df["stacktrace"] = display_df["stacktrace"].astype(str).str.replace(
-            k, f"<mark style='background:#38bdf8;color:#000'>{k}</mark>",
-            case=False, regex=True
-        )
+        st.success("No unauthorized attempts found.")
 
-        # Select rows
-        shown_df = display_df if row_count == "All" else display_df.tail(int(row_count))
+    # Raw logs
+    st.subheader("Raw Logs")
+    filtered_df = df.copy()
 
-        st.markdown(shown_df.to_html(escape=False, index=False), unsafe_allow_html=True)
+    if keyword_filter.strip():
+        filtered_df = filtered_df[
+            filtered_df["message"].str.contains(keyword_filter, case=False, na=False)
+        ]
 
-else:
-    # no keyword filtering
-    shown_df = filtered_df if row_count == "All" else filtered_df.tail(int(row_count))
-    st.dataframe(shown_df, use_container_width=True)
+    st.dataframe(filtered_df.tail(50), width="stretch")
+
+# -----------------------------------------------------------
+# AUTO REFRESH
+# -----------------------------------------------------------
+if auto_refresh:
+    st_autorefresh(interval=interval * 1000, key="refresh")
