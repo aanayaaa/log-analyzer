@@ -1,37 +1,48 @@
-import smtplib
-from email.mime.text import MIMEText
-import requests
+import time
+import os
+from log_parser import read_log_file, parse_log_lines
+from analyzer import keyword_search
+from utils import send_email_alert   # from utils.py
 
-# -----------------------------
-# SLACK ALERT FUNCTION
-# -----------------------------
-def send_slack_alert(webhook_url, message):
-    payload = {"text": message}
-    try:
-        response = requests.post(webhook_url, json=payload)
-        if response.status_code == 200:
-            print("[ALERT] Slack message sent")
-        else:
-            print("[ALERT ERROR] Slack failed:", response.text)
-    except Exception as e:
-        print("[ALERT ERROR] Slack exception:", e)
+LOG_FILE = "logs/sample.log"
+
+# --- YOUR EMAIL CONFIG ---
+SENDER = "v.aanaya01@gmail.com"
+APP_PASSWORD = "btab ieyq kpli tdtl"   # <- MUST BE APP PASSWORD
+RECEIVER = "aanaya.v01@gmail.com"
 
 
-# -----------------------------
-# EMAIL ALERT FUNCTION (GMAIL)
-# -----------------------------
-def send_email_alert(sender_email, app_password, receiver_email, subject, body):
-    msg = MIMEText(body)
-    msg["From"] = sender_email
-    msg["To"] = receiver_email
-    msg["Subject"] = subject
+def monitor_logs():
+    print("🔔 Alert system running... watching logs in real time.\n")
 
-    try:
-        server = smtplib.SMTP("smtp.gmail.com", 587)
-        server.starttls()
-        server.login(sender_email, app_password)
-        server.sendmail(sender_email, receiver_email, msg.as_string())
-        server.quit()
-        print("[ALERT] Email sent successfully")
-    except Exception as e:
-        print("[ALERT ERROR] Email failed:", e)
+    last_size = 0
+
+    while True:
+        if not os.path.exists(LOG_FILE):
+            time.sleep(1)
+            continue
+
+        lines = read_log_file(LOG_FILE)
+
+        # Check new logs only
+        new_lines = lines[last_size:]
+        last_size = len(lines)
+
+        entries = parse_log_lines(new_lines)
+
+        for e in entries:
+            level = e["level"]
+            msg = e["message"]
+            ts = e["timestamp"]
+
+            if level in ("ERROR", "CRITICAL"):
+                print(f"\n⚠ ALERT TRIGGERED → {ts} | {level} | {msg}")
+
+                body = f"Timestamp: {ts}\nLevel: {level}\nMessage: {msg}\n\nThis alert was auto-generated."
+                send_email_alert(SENDER, APP_PASSWORD, RECEIVER, f"LOG ALERT: {level}", body)
+
+        time.sleep(1)
+
+
+if __name__ == "__main__":
+    monitor_logs()

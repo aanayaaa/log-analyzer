@@ -7,7 +7,7 @@ import os
 # EMAIL ALERT CONFIG
 # -----------------------------
 SENDER_EMAIL = "v.aanaya01@gmail.com"          # <-- Replace with YOUR Gmail
-APP_PASSWORD = "vclm gowc wfff weko"       # <-- Replace with 16-char App Password
+APP_PASSWORD = "fdla tgmn ifsr nbpa"       # <-- Replace with 16-char App Password
 RECEIVER_EMAIL = "aanaya.v01@gmail.com"        # <-- Can use the same email for testing
 
 # -----------------------------
